@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Professional Bootcamp (第二期) - 招生简章</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap');
+
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        /* Custom Gradient derived from the uploaded image (Deep Blue to Sunset Orange) */
+        .bg-theme-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #ea580c 100%);
+        }
+
+        .text-theme-orange {
+            color: #f97316;
+        }
+
+        .bg-theme-orange {
+            background-color: #f97316;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dark-glass-card {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Animation utilities */
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+
+        .hover-scale:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Hero Section -->
+    <header class="bg-theme-gradient text-white relative overflow-hidden">
+        <!-- Decorative abstract shapes -->
+        <div class="absolute top-0 left-0 w-full h-full opacity-20 pointer-events-none">
+            <div class="absolute top-10 right-10 w-64 h-64 bg-orange-500 rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-10 left-10 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl"></div>
+        </div>
+
+        <div class="container mx-auto px-6 py-20 relative z-10 text-center">
+            <div
+                class="inline-block px-4 py-1 border border-orange-400 rounded-full text-orange-300 text-sm font-semibold mb-6 animate-pulse">
+                第二期火热招生中 🔥
+            </div>
+            <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight">
+                AI Professional Bootcamp
+                <span class="block text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-300">
+                    从“使用者”进化为“设计者”
+                </span>
+            </h1>
+            <p class="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto mb-10 leading-relaxed">
+                不仅是学会聊天，而是亲手打造一套<span class="font-bold text-white border-b-2 border-orange-500">能自动干活的业务系统</span>。<br>
+                专为移民顾问、律师及专业服务人士定制 · 12 周实战
+            </p>
+
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#pricing"
+                    class="px-8 py-4 bg-orange-600 hover:bg-orange-500 text-white font-bold rounded-full shadow-lg hover:shadow-orange-500/50 transition transform hover:-translate-y-1">
+                    抢占早鸟优惠 🚀
+                </a>
+                <a href="#syllabus"
+                    class="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-full backdrop-blur-sm border border-white/30 transition">
+                    查看课程详情
+                </a>
+            </div>
+
+            <!-- Warning Box -->
+            <div
+                class="mt-12 max-w-2xl mx-auto bg-red-900/30 border border-red-500/30 p-4 rounded-lg text-sm text-red-200">
+                <p><i class="fas fa-exclamation-triangle mr-2"></i> <strong>核心警告：</strong> 你可以不懂 AI，没有 IT
+                    基础，但你需要投入时间。在学习过程中必须转换凡事“问妈妈”的思维！否则，劝退。</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Comparison Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">这门课有什么不同？</h2>
+                <div class="w-20 h-1 bg-orange-500 mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Beginner Class -->
+                <div
+                    class="p-8 rounded-2xl bg-slate-50 border border-slate-200 text-slate-500 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 px-4 py-1 bg-slate-200 text-xs font-bold rounded-bl-lg">传统入门课
+                    </div>
+                    <div class="text-5xl mb-6 text-slate-300"><i class="fas fa-user"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">你是一个“指挥官” (怎么用)</h3>
+                    <p class="mb-4">用 ChatGPT 写邮件、写文案。虽然好用，但必须你一句一句盯着它干。</p>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex items-center"><i class="fas fa-times text-red-400 mr-2"></i> 单次任务，无法连贯</li>
+                        <li class="flex items-center"><i class="fas fa-times text-red-400 mr-2"></i> 需要人工大量介入</li>
+                        <li class="flex items-center"><i class="fas fa-times text-red-400 mr-2"></i> 你只是工具的使用者</li>
+                    </ul>
+                </div>
+
+                <!-- Professional Class -->
+                <div
+                    class="p-8 rounded-2xl bg-slate-900 text-white shadow-2xl relative overflow-hidden transform md:scale-105 border-2 border-orange-500/50">
+                    <div
+                        class="absolute top-0 right-0 px-4 py-1 bg-orange-600 text-xs font-bold rounded-bl-lg text-white">
+                        本课程目标</div>
+                    <div class="text-5xl mb-6 text-orange-500"><i class="fas fa-layer-group"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">你是一个“设计师” (怎么造)</h3>
+                    <p class="mb-4 text-gray-300">定义工作流，把你的业务逻辑 (SOP) 变成自动化的系统。按下一个按钮，自动跑完“填表-查资料-写方案-核对”。</p>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> 全流程自动化</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> 真正的效率革命</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> 打造 24h 虚拟员工</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5 Pillars Section (Dark Theme) -->
+    <section class="py-20 px-6 bg-slate-900 text-white relative overflow-hidden">
+        <!-- Background decorative grid -->
+        <div class="absolute inset-0 opacity-10"
+            style="background-image: radial-gradient(#4b5563 1px, transparent 1px); background-size: 30px 30px;"></div>
+
+        <div class="container mx-auto max-w-6xl relative z-10">
+            <div class="text-center mb-16">
+                <span class="text-orange-400 font-bold tracking-wider uppercase">The 5 Pillars</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2">打造你的自动化“工厂”</h2>
+                <p class="text-slate-400 mt-4 max-w-2xl mx-auto">不讲晦涩代码，只教你搭建系统必须的 5 块积木</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="dark-glass-card p-6 rounded-xl hover-scale">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">1. 简单指令</h3>
+                    <p class="text-sm text-slate-300 mb-2 font-mono text-orange-300">Commands</p>
+                    <p class="text-slate-400 text-sm">把复杂任务变成一个按钮。设定一个指令（如 /查学签），直接启动一连串流程。</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="dark-glass-card p-6 rounded-xl hover-scale">
+                    <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">2. 雇佣虚拟员工</h3>
+                    <p class="text-sm text-slate-300 mb-2 font-mono text-orange-300">Sub Agents</p>
+                    <p class="text-slate-400 text-sm">捏出不同的专家：一个负责搜集，一个负责写文书，一个负责查错。自动分工合作。</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="dark-glass-card p-6 rounded-xl hover-scale border-orange-500/50 shadow-[0_0_15px_rgba(234,88,12,0.15)]">
+                    <div class="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">3. 给 AI 装上眼和手</h3>
+                    <p class="text-sm text-slate-300 mb-2 font-mono text-orange-300">MCP Tools</p>
+                    <p class="text-slate-400 text-sm">给 AI 装上“电子义肢”：FormBro 读取 CRM，Tavily 实时搜索法庭判例，Playwright 自动登录官网查状态。
+                    </p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="dark-glass-card p-6 rounded-xl hover-scale">
+                    <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">4. 注入你的经验</h3>
+                    <p class="text-sm text-slate-300 mb-2 font-mono text-orange-300">Context Engineering</p>
+                    <p class="text-slate-400 text-sm">建立知识库，让 AI 记住你的办案习惯和客户背景。它不再是愣头青，而是懂规矩的老员工。</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="dark-glass-card p-6 rounded-xl hover-scale">
+                    <div class="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">5. 质量严控</h3>
+                    <p class="text-sm text-slate-300 mb-2 font-mono text-orange-300">Anti-Hallucination</p>
+                    <p class="text-slate-400 text-sm">像带徒弟一样立规矩。教会 AI 输出符合专业标准的文档，严控幻觉，按要求引用来源。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Syllabus & Info -->
+    <section id="syllabus" class="py-20 px-6 bg-slate-50">
+        <div class="container mx-auto max-w-5xl">
+            <!-- Basic Info Grid -->
+            <div class="grid md:grid-cols-3 gap-6 mb-16">
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-600">
+                    <div class="text-gray-500 text-sm mb-1">讲师</div>
+                    <div class="font-bold text-lg">Jacky Zhang</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-orange-500">
+                    <div class="text-gray-500 text-sm mb-1">时长与形式</div>
+                    <div class="font-bold text-lg">12 周</div>
+                    <div class="text-sm text-gray-600">每周 1.5h 直播 + 课后实战</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-600">
+                    <div class="text-gray-500 text-sm mb-1">适合人群</div>
+                    <div class="font-bold text-lg">移民顾问 / 律师</div>
+                    <div class="text-sm text-gray-600">无需编程基础，商业咨询师亦可</div>
+                </div>
+            </div>
+
+            <!-- Roadmap -->
+            <h3 class="text-2xl font-bold mb-8 text-center text-slate-800">12 周实战路径</h3>
+            <div class="relative border-l-4 border-slate-200 ml-4 md:ml-0 md:pl-0 space-y-8">
+
+                <div class="md:flex items-start group">
+                    <div
+                        class="hidden md:block w-32 text-right pr-8 pt-1 text-slate-400 font-bold group-hover:text-blue-600">
+                        阶段一</div>
+                    <div
+                        class="absolute left-[-10px] md:left-auto md:relative w-5 h-5 bg-slate-300 rounded-full border-4 border-white group-hover:bg-blue-600 transition">
+                    </div>
+                    <div class="pl-8 md:pl-8 flex-1">
+                        <h4 class="font-bold text-lg text-slate-800">打地基 (Foundation)</h4>
+                        <p class="text-slate-600">学会给 AI 立规矩，不再随机输出。</p>
+                    </div>
+                </div>
+
+                <div class="md:flex items-start group">
+                    <div
+                        class="hidden md:block w-32 text-right pr-8 pt-1 text-slate-400 font-bold group-hover:text-blue-600">
+                        阶段二</div>
+                    <div
+                        class="absolute left-[-10px] md:left-auto md:relative w-5 h-5 bg-slate-300 rounded-full border-4 border-white group-hover:bg-blue-600 transition">
+                    </div>
+                    <div class="pl-8 md:pl-8 flex-1">
+                        <h4 class="font-bold text-lg text-slate-800">组团队 (Teaming)</h4>
+                        <p class="text-slate-600">训练多个虚拟员工，让它们协同工作。</p>
+                    </div>
+                </div>
+
+                <div class="md:flex items-start group">
+                    <div
+                        class="hidden md:block w-32 text-right pr-8 pt-1 text-slate-400 font-bold group-hover:text-blue-600">
+                        阶段三</div>
+                    <div
+                        class="absolute left-[-10px] md:left-auto md:relative w-5 h-5 bg-slate-300 rounded-full border-4 border-white group-hover:bg-blue-600 transition">
+                    </div>
+                    <div class="pl-8 md:pl-8 flex-1">
+                        <h4 class="font-bold text-lg text-slate-800">连数据 (Connectivity)</h4>
+                        <p class="text-slate-600">让 AI 能看到外部世界，处理真实数据 (CRM/官网)。</p>
+                    </div>
+                </div>
+
+                <div class="md:flex items-start group">
+                    <div
+                        class="hidden md:block w-32 text-right pr-8 pt-1 text-slate-400 font-bold group-hover:text-orange-500">
+                        阶段四</div>
+                    <div
+                        class="absolute left-[-10px] md:left-auto md:relative w-5 h-5 bg-slate-300 rounded-full border-4 border-white group-hover:bg-orange-500 transition">
+                    </div>
+                    <div class="pl-8 md:pl-8 flex-1">
+                        <h4 class="font-bold text-lg text-slate-900">真实落地 (Production)</h4>
+                        <p class="text-slate-600">毕业设计：亲手搭建一套真正能用的自动化系统（如全自动学签分析、客户背调系统）。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 px-6 bg-slate-900 text-white relative">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-blue-900/20 pointer-events-none"></div>
+        <div class="container mx-auto max-w-6xl relative z-10">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold">费用与优惠</h2>
+                <p class="text-orange-400 font-bold mt-2 text-lg"><i class="fas fa-fire mr-1"></i> 早鸟优惠截止日期：2025 年 12 月
+                    15 日</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 items-start">
+
+                <!-- Alumni -->
+                <div
+                    class="bg-slate-800 p-8 rounded-2xl border border-slate-700 opacity-80 hover:opacity-100 transition">
+                    <h3 class="text-xl font-bold mb-2 text-slate-300">上期学员</h3>
+                    <p class="text-sm text-slate-400 h-10">获得二期培训中与时俱进的新内容</p>
+                    <div class="my-6">
+                        <span class="text-3xl font-bold">$500</span> <span class="text-sm text-slate-400">CAD</span>
+                    </div>
+                    <a href="#register"
+                        class="block w-full py-2 text-center border border-slate-500 rounded-lg hover:bg-slate-700 transition">学员报名</a>
+                </div>
+
+                <!-- Standard -->
+                <div class="bg-white text-slate-900 p-8 rounded-2xl shadow-xl transform md:-translate-y-4">
+                    <div class="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs font-bold rounded-full mb-4">
+                        最受欢迎</div>
+                    <h3 class="text-2xl font-bold mb-2">方案 A：标准版</h3>
+                    <p class="text-sm text-slate-600 h-10">完整 12 周课程 + 作业点评</p>
+                    <div class="my-6">
+                        <p class="text-xs text-slate-400 line-through">原价 $1,500</p>
+                        <span class="text-4xl font-bold text-blue-900">$1,200</span> <span
+                            class="text-sm text-slate-500">CAD (早鸟)</span>
+                    </div>
+                    <ul class="text-sm space-y-3 mb-8 text-slate-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 12周直播+回放</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 实战作业点评</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 班级社群交流</li>
+                    </ul>
+                    <a href="#register"
+                        class="block w-full py-3 text-center bg-blue-900 text-white font-bold rounded-lg hover:bg-blue-800 shadow-lg transition">立即报名
+                        (标准版)</a>
+                </div>
+
+                <!-- Professional -->
+                <div
+                    class="bg-gradient-to-b from-orange-500 to-orange-600 text-white p-8 rounded-2xl shadow-2xl transform md:-translate-y-4 border-2 border-yellow-300">
+                    <div class="flex justify-between items-center mb-4">
+                        <div
+                            class="inline-block px-3 py-1 bg-yellow-300 text-orange-900 text-xs font-bold rounded-full">
+                            尊享版</div>
+                        <i class="fas fa-crown text-yellow-200"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">方案 B：尊享版</h3>
+                    <p class="text-sm text-orange-100 h-10">包含标准版内容 + <span class="font-bold underline">1对1 私教落地</span>
+                    </p>
+                    <div class="my-6">
+                        <p class="text-xs text-orange-200 line-through">原价 $2,000</p>
+                        <span class="text-4xl font-bold text-white">$1,800</span> <span
+                            class="text-sm text-orange-200">CAD (早鸟)</span>
+                    </div>
+                    <ul class="text-sm space-y-3 mb-8 text-orange-50">
+                        <li class="flex items-center"><i class="fas fa-check text-white mr-2"></i> 全部标准版权益</li>
+                        <li class="flex items-center"><i class="fas fa-star text-yellow-300 mr-2"></i> 2.5小时 1对1 专属私教
+                        </li>
+                        <li class="flex items-center"><i class="fas fa-star text-yellow-300 mr-2"></i> 老师亲自帮你跑通系统</li>
+                        <li class="flex items-center"><i class="fas fa-star text-yellow-300 mr-2"></i> 解决具体业务难题</li>
+                    </ul>
+                    <a href="#register"
+                        class="block w-full py-3 text-center bg-white text-orange-600 font-bold rounded-lg hover:bg-gray-100 shadow-lg transition">选择尊享版</a>
+                </div>
+
+            </div>
+            <p class="text-center text-slate-500 text-xs mt-6">* 所有价格需加收 5% GST</p>
+        </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="register" class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <div class="bg-slate-50 p-8 md:p-12 rounded-3xl border border-slate-200 shadow-lg">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-slate-900 mb-4">立即报名</h2>
+                    <p class="text-slate-600">别人还在用 AI 聊天，你已经拥有了自己的 AI 业务团队。</p>
+                </div>
+
+                <div class="space-y-8">
+                    <!-- Step 1 -->
+                    <div class="flex items-start">
+                        <div
+                            class="flex-shrink-0 w-10 h-10 bg-blue-900 text-white rounded-full flex items-center justify-center font-bold text-lg mr-4">
+                            1</div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">填写报名表</h4>
+                            <p class="mb-3 text-slate-600">必须提供 Gmail 邮箱，以便后续开通系统权限。</p>
+                            <a href="https://forms.gle/LntBUpDGFY6m8AJF7" target="_blank"
+                                class="inline-flex items-center text-blue-600 font-bold hover:underline">
+                                点击此处填写 Google Form <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="flex items-start">
+                        <div
+                            class="flex-shrink-0 w-10 h-10 bg-blue-900 text-white rounded-full flex items-center justify-center font-bold text-lg mr-4">
+                            2</div>
+                        <div class="w-full">
+                            <h4 class="text-xl font-bold mb-4">支付学费</h4>
+
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <!-- EMT -->
+                                <div class="p-4 bg-white border border-slate-200 rounded-lg">
+                                    <div class="font-bold text-blue-900 mb-2"><i
+                                            class="fas fa-university mr-2"></i>加拿大境内 (EMT)</div>
+                                    <p class="text-sm text-slate-500 mb-1">转账至：</p>
+                                    <p class="font-mono bg-slate-100 p-2 rounded select-all mb-2">
+                                        Noah.consultant@outlook.com</p>
+                                    <p class="text-xs text-slate-400">金额：课程费用 + 5% GST</p>
+                                </div>
+
+                                <!-- WeChat -->
+                                <div class="p-4 bg-white border border-slate-200 rounded-lg">
+                                    <div class="font-bold text-green-600 mb-2"><i class="fab fa-weixin mr-2"></i>微信支付
+                                        (WeChat)</div>
+                                    <p class="text-sm text-slate-600">支持人民币支付</p>
+                                    <p class="text-xs text-slate-400 mt-2">汇率：按付款当日 CAD 对 RMB 现钞卖出价折算</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 text-center">
+        <div class="container mx-auto px-6">
+            <p class="font-bold text-white mb-2">AI Professional Bootcamp</p>
+            <p class="text-sm mb-6">Designed for Immigration Consultants, Lawyers & Professionals</p>
+            <div class="w-12 h-1 bg-slate-700 mx-auto mb-6"></div>
+            <p class="text-xs">&copy; 2025 AI Professional Bootcamp. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
