@@ -221,6 +221,32 @@
             color: var(--theme-blue);
         }
 
+        .nav-link.current.active {
+            background: linear-gradient(90deg, rgba(241, 196, 15, 0.18), rgba(52, 152, 219, 0.12));
+            color: var(--theme-blue);
+            box-shadow: inset 3px 0 0 var(--accent-gold);
+            font-weight: 600;
+        }
+
+        .nav-link.archived {
+            color: #94a3b8;
+            opacity: 0.72;
+        }
+
+        .nav-link.archived .nav-icon {
+            color: #cbd5e1;
+        }
+
+        .nav-link.archived:hover {
+            background-color: #f6f8fb;
+            color: #64748b;
+            opacity: 1;
+        }
+
+        .nav-link.archived:hover .nav-icon {
+            color: #94a3b8;
+        }
+
         /* Icon Style */
         .nav-icon {
             min-width: 20px; /* Fixed width for icon */
@@ -383,7 +409,7 @@
                 <div class="nav-header">最近更新</div>
                 
                 <!-- Post Item 1 -->
-                <a href="posts/codex-practical-beginner.html" target="content-frame" class="nav-link active" onclick="selectPost(this)" data-title="Codex 超级入口实战初级班 (2026-06)">
+                <a href="posts/codex-practical-beginner.html" target="content-frame" class="nav-link current active" onclick="selectPost(this)" data-title="Codex 超级入口实战初级班 (2026-06)">
                     <div class="nav-icon">
                         <!-- Document Icon -->
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
@@ -394,7 +420,7 @@
                 </a>
 
                 <!-- Post Item 2 -->
-                <a href="posts/ai-pro-bootcamp2.html" target="content-frame" class="nav-link" onclick="selectPost(this)" data-title="AI Pro Bootcamp 2 (2025-12-01)">
+                <a href="posts/ai-pro-bootcamp2.html" target="content-frame" class="nav-link archived" onclick="selectPost(this)" data-title="AI Pro Bootcamp 2 (已完成)">
                     <div class="nav-icon">
                         <!-- Document Icon -->
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
@@ -405,7 +431,7 @@
                 </a>
 
                 <!-- Post Item 3 -->
-                <a href="posts/ai-pro-bootcamp1.html" target="content-frame" class="nav-link" onclick="selectPost(this)" data-title="AI Pro Bootcamp 1.0 (2025-11-20)">
+                <a href="posts/ai-pro-bootcamp1.html" target="content-frame" class="nav-link archived" onclick="selectPost(this)" data-title="AI Pro Bootcamp 1.0 (已完成)">
                     <div class="nav-icon">
                         <!-- Document Icon -->
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
